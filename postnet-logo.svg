@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d51022" />
+      <stop offset="100%" stop-color="#a00c1c" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" rx="36" />
+  <text x="50%" y="42%" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="88" font-weight="800" fill="#ffffff">PostNet</text>
+  <text x="50%" y="67%" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="600" fill="#ffffff">Granja Viana</text>
+</svg>

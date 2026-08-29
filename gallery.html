@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria de Parceiros — Mainframe Tech</title>
+    <meta name="description" content="Galeria para exibir os parceiros e suas imagens na Mainframe Tech" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero-section">
+      <nav class="navbar navbar-expand-lg navbar-dark py-3">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="index.html">Mainframe Tech</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav gap-lg-3">
+              <li class="nav-item"><a class="nav-link" href="index.html#sobre">Sobre</a></li>
+              <li class="nav-item"><a class="nav-link" href="services.html">Serviços</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="gallery.html">Galeria</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html#contato">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="container py-5">
+        <div class="row align-items-center min-vh-50 py-5">
+          <div class="col-lg-8">
+            <h1 class="display-5 fw-bold mb-3">Galeria de Parceiros</h1>
+            <p class="lead text-secondary mb-4">Espaço dedicado para exibir as marcas e os parceiros que fazem parte da nossa rede.</p>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main class="container py-4">
+      <section class="py-4">
+        <div class="gallery-intro mb-4">
+          <h2 class="mb-3">Case de parceria</h2>
+          <p class="text-secondary mb-0">Veja um dos nossos principais atendimentos recentes e entenda como a Mainframe Tech entrega performance, estabilidade e suporte de qualidade.</p>
+        </div>
+
+        <article class="case-card mb-5">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-5">
+              <div class="case-visual" aria-label="Imagem do case PostNet Granja Viana">
+                <div class="case-tag">Parceiro</div>
+                <img src="postnet-logo.svg" alt="PostNet Granja Viana" class="case-logo" />
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="case-content">
+                <h3 class="h4 mb-3">Atendimento de troubleshooting e otimização</h3>
+                <p class="text-secondary mb-3">A Mainframe Tech realizou nesta semana um serviço de troubleshooting e otimização de estações de trabalho na PostNet Granja Viana, com foco em restaurar o desempenho e garantir maior estabilidade aos equipamentos.</p>
+                <p class="text-secondary mb-3">Durante o atendimento, foram executadas atividades como:</p>
+                <ul class="case-list text-secondary">
+                  <li>Diagnóstico de desempenho;</li>
+                  <li>Remoção de arquivos temporários e resíduos do sistema;</li>
+                  <li>Correção de lentidão e ajustes de inicialização;</li>
+                  <li>Otimização do sistema operacional;</li>
+                  <li>Verificação da integridade do hardware e software;</li>
+                  <li>Aplicação de boas práticas para melhorar a performance e a experiência dos usuários.</li>
+                </ul>
+                <p class="text-secondary mb-0">Acreditamos que a tecnologia deve impulsionar o negócio, e isso começa por manter os ambientes de TI saudáveis, seguros e eficientes. Agradecemos à PostNet Granja Viana pela confiança em nosso trabalho.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="partner-card">
+              <div class="partner-image partner-image--placeholder" aria-label="Imagem do parceiro 1"></div>
+              <div class="partner-content">
+                <h3 class="h5">Parceiro 1</h3>
+                <p class="text-secondary mb-0">Adicione aqui a imagem e a descrição do parceiro que deseja destacar.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="partner-card">
+              <div class="partner-image partner-image--placeholder" aria-label="Imagem do parceiro 2"></div>
+              <div class="partner-content">
+                <h3 class="h5">Parceiro 2</h3>
+                <p class="text-secondary mb-0">Use esse espaço para mostrar logos, fotos ou campanhas em conjunto.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="partner-card">
+              <div class="partner-image partner-image--placeholder" aria-label="Imagem do parceiro 3"></div>
+              <div class="partner-content">
+                <h3 class="h5">Parceiro 3</h3>
+                <p class="text-secondary mb-0">A estrutura já está pronta para receber novas imagens com facilidade.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4 text-center text-secondary">
+      <p class="mb-0">&copy; <span id="year"></span> Mainframe Tech. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+  </body>
+</html>
